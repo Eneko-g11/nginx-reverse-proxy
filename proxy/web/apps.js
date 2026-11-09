@@ -23,6 +23,12 @@ const APPS = [
     descripcion: 'Gestión de contenedores Docker',
   },
   {
+    nombre: 'Duplicati',
+    ruta: '/duplicati/',
+    imagen: 'img/duplicati.svg',
+    descripcion: 'Copias de seguridad',
+  },
+  {
     nombre: 'Erronka 2SMD',
     ruta: '/erronka-2smd/',
     imagen: 'img/generica.svg',
