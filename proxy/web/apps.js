@@ -22,5 +22,10 @@ const APPS = [
     imagen: 'img/portainer.svg',
     descripcion: 'Gestión de contenedores Docker',
   },
-  // ↓ Añade aquí las cajas nuevas, antes del ]; que cierra la lista
+  {
+    nombre: 'Erronka 2SMD',
+    ruta: '/erronka-2smd/',
+    imagen: 'img/generica.svg',
+    descripcion: 'Web de Gure Enpresa',
+  },
 ];
