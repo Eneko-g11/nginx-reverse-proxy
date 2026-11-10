@@ -1,7 +1,30 @@
-# Claves: viven en tu PC, NUNCA en git
+# Secrets & environment
 .env
+.env.local
+*.key
+*.crt
 
-# Windows / macOS
-desktop.ini
-Thumbs.db
+# Certificates
+certs/
+
+# OS
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Docker
+.dockerignore
+
+# Volumes (local data)
+code_config/
+portainer_data/
+duplicati_config/
+duplicati_backups/
